@@ -1,0 +1,194 @@
+#container
+{
+	height:600px;
+}
+
+.register-values
+{
+	background-color:gray;
+	float:left;
+	height:160px;
+	width:100px;
+}
+
+.register
+{
+    
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+
+option,select,date {
+	
+	width:200px;
+	background-color:#eff3f9;
+	height:20px;
+	font-size:12px;
+	border-radius: 5px;
+	outline-color:gray;
+	font-weight:bold;	
+}
+
+.left-register-panel
+{
+	float:right;
+	width:400px;
+	height:500px;
+	
+
+}
+
+.right-register-panel
+{
+	font-weight:bold;
+	float:left;
+	width:300px;
+
+}
+
+.a
+{
+	margin-top:5px;
+	text-align:right;
+	float:left;
+	font-weight:normal;
+	width:350px;
+	height:26px;
+
+}
+
+.data
+{
+	margin-top:0px;	
+	float:right;
+}
+
+.register-data
+{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+   
+}
+
+.data2
+{
+	font-weight:normal;
+	clear:both;
+	text-align:left;
+	margin:0;
+	padding:0;
+}
+
+#menu-container
+{
+    min-height: 600px;
+	display:flex;
+	justify-content:center;
+	items-align:center;	
+}
+
+input[type=text],input[type=password],input[type=email],input[type=number]
+{
+	width:200px;
+	background-color:#eff3f9;
+	height:20px;
+	font-size:12px;
+	border-radius: 5px;
+	outline-color:gray;
+	font-weight:bold;	
+
+}
+
+input[type=submit],input[type=button]
+{
+	height:35px;
+	background-color:#0069ff;
+	color:#eff3f9;
+	cursor:pointer;
+	border:none;
+	border-radius:5px;
+	letter-spacing:1px;
+	width:130px;
+    margin-top:30px;
+
+}
+
+
+
+
+input[type=button]:hover
+{
+	background-color:#e1ecf7;
+	color:black;	
+	border:1px solid black;
+	font-weight:bold;
+}
+
+input[type=button]:active
+{
+	font-weight:bold;
+	outline-color:black;
+}
+
+.data
+{
+	margin-top:10px;
+	margin-right:10px;
+	float:top;	
+}
+
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #2d2c2c;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #2d2c2c;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #2d2c2c;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #2d2c2c;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	font-weight:bold;
+	background-color: #eff3f9;
+	border:1px solid black;
+	color:black;	
+}	
+
+

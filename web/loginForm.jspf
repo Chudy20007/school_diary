@@ -1,0 +1,10 @@
+
+<div class="col-md-12 col-md-12-custom">
+    <form method="POST" action="logowanie.jsp" style="text-align: center">
+        <b>Login:</b> <input type="text" id="login" name="login" value="" placeholder="min. 4 znaki" /><br/><br/>
+        <b>Haslo:</b> <input type="password" id="haslo" name="haslo" value="" placeholder="min. 4 znaki" /><br/>
+
+        <input type="submit" value="Przeslij" />
+        <br/><br/>
+    </form>
+</div>

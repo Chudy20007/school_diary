@@ -1,0 +1,28 @@
+
+
+<div class="row">
+    <div class="col-md-12"><img src="WebContent/banner.jpg" style="height:250px; width:100%"/></div>
+</div>
+
+<nav class="navbar navbar-inverse navbar-custom">
+    <div class="container-fluid custom">
+        <ul class="nav navbar-nav navbar-custom">
+            <li class="li-custom"><a href="index.jsp">Strona glówna</a></li>
+            <li class="li-custom"><a href="lista_przedmiotow.jsp">Lista przedmiotów</a></li>
+            <li class="li-custom"><a href="lista_uczniow.jsp">Lista uczniów</a></li>
+            <li class="li-custom"><a href="lista_ocen.jsp">Lista ocen</a></li>
+            <li class="li-custom"><a href="lista_jednostek.jsp">Lista j. lekcyjnych</a></li>
+            <li class="li-custom"><a href="lista_obecnosci.jsp">Lista obecnosci</a></li>
+
+        </ul>
+
+        <ul class="nav navbar-nav navbar-custom">
+            <li class="li-custom" ><a href="rejestracja_obecnosci.jsp"><span class="glyphicon glyphicon-user"></span> Rej. obec.</a></li>
+            <li class="li-custom" ><a href="rejestracja_jednostki_lekcyjnej.jsp"><span class="glyphicon glyphicon-user"></span> Rej. jedn. lek.</a></li>
+            <li class="li-custom" ><a href="rejestracja_przedmiotu.jsp"><span class="glyphicon glyphicon-user"></span> Rej. przedmiotu</a></li>
+            <li class="li-custom" ><a href="rejestracja.jsp"><span class="glyphicon glyphicon-user"></span> Rej. ucznia</a></li>
+            <li class="li-custom" ><a href="rejestracja_oceny.jsp"><span class="glyphicon glyphicon-user"></span> Rej. oceny</a></li>
+            <li class="li-custom"><a href="logowanie.jsp"><span class="glyphicon glyphicon-log-in"></span> Logowanie</a></li>
+        </ul>
+    </div>
+</nav>

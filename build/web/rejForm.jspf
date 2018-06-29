@@ -1,0 +1,11 @@
+
+<div class="col-md-12 col-md-12-custom">
+    <form method="POST" id="form" action="rejestracja.jsp" style="text-align: center">
+        <b>Imie:</b> <input type="text" id="imie" name="imie" value="" placeholder="min. 4 znaki" /><br/><br/>
+        <b>Nazwisko:</b> <input type="text" id="nazwisko" name="nazwisko" value="" placeholder="min. 4 znaki" /><br/>
+
+        <input type="submit" onclick="return sprawdz();" value="Przeslij" />
+        <br/><br/>
+    </form>
+</div>
+<script src="WebContent/sprawdz_formularz.js"></script>

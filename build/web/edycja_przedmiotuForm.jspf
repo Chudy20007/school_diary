@@ -1,0 +1,10 @@
+
+<div class="col-md-12 col-md-12-custom">
+    <form method="POST" id="form" action="rejestracja_przedmiotu.jsp" style="text-align: center">
+        <b>Nazwa przedmiotu: </b> <input type="text" id="nazwa" name="nazwa" value="" placeholder="min. 4 znaki" /><br/><br/>
+        <input type="hidden" name="id" value='<%= request.getParameter("id")%>'></input>
+        <input type="submit" onclick="return sprawdz();" value="Przeslij"/>
+        <br/><br/>
+    </form>
+        <script src="WebContent/sprawdz_formularz.js"></script>
+</div>

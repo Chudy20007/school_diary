@@ -1,0 +1,44 @@
+
+<%@page import="dziennik.DbContext"%>
+<%@page import="dziennik.Teacher"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.PreparedStatement"%>
+<div class="col-md-12 col-md-12-custom">
+
+    <%
+
+        String connectionURL = "jdbc:mysql://127.0.0.1/dziennik";
+
+        Teacher t = new Teacher("root", "");
+        DbContext context = new DbContext(connectionURL, t);
+        context.setConnection();
+        String query = "SELECT ID_przedmiotu, Nazwa_przedmiotu FROM przedmioty";
+        PreparedStatement ps;
+        ps = context.prepareStatement(query);
+
+        ResultSet resultSet = ps.executeQuery(query);
+    %>
+
+    <form method="POST" id="form" action="rejestracja_jednostki_lekcyjnej.jsp" style="text-align: center">
+
+
+
+        <b>Nazwa przedmiotu: </b>   <select name="przedmiot">
+            <%   while (resultSet.next()) {%>
+
+            <option value="<%= resultSet.getString("ID_przedmiotu")%>">
+                <%= resultSet.getString("Nazwa_przedmiotu")%>
+            </option>
+
+            <%  } %>
+
+        </select>
+        <%
+            context.getDbConnection().close();
+        %>
+        <br/><br/>
+        <input type="submit" onclick="return sprawdz();" value="Przeslij" />
+        <br/><br/>
+    </form>
+</div>
+        <script src="WebContent/sprawdz_formularz.js"></script>

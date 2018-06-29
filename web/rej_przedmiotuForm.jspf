@@ -1,0 +1,9 @@
+
+<div class="col-md-12 col-md-12-custom">
+    <form method="POST" id='form' action="rejestracja_przedmiotu.jsp" style="text-align: center">
+        <b>Nazwa przedmiotu: </b> <input type="text" id="nazwa" name="nazwa" value="" placeholder="min. 4 znaki" /><br/><br/>
+        <input type="submit" onclick='return sprawdz();' value="Przeslij" />
+        <br/><br/>
+        <script src="WebContent/sprawdz_formularz.js"></script>
+    </form>
+</div>
